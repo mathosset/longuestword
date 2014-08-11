@@ -1,0 +1,10 @@
+<p> ******** Welcome to the longest word-game !******** </p>
+<%= "Here is your grid :" %>
+<%= @grid %>
+
+<p> ************************************************ </p>
+<form action="/score">
+  <label for="question">What's your best shot ?</label>
+  <input type="text" id="question" name="query" placeholder="">
+  <input type="submit" value="Go on!">
+</form>
