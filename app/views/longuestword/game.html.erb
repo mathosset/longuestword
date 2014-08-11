@@ -3,7 +3,7 @@
 <%= @grid %>
 
 <p> ************************************************ </p>
-<form action="/score">
+<form action="<%= :score %>">
   <label for="question">What's your best shot ?</label>
   <input type="text" id="question" name="query" placeholder="">
   <input type="submit" value="Go on!">
